@@ -17,7 +17,7 @@ video {
 :root {
   --ff-heading: "Lobster", cursive;
   --ff-text: "Open Sans", sans-serif;
-  --clr-main-background: #dbdbdb;
+  --clr-main-background: #f0eaea;
   --clr-card-background: #ffffff;
   --clr-accent: #009999;
 }
@@ -41,3 +41,22 @@ h1 {
 h2 {
   font-size: 2em;
 }
+
+p {
+  line-height: 1.8;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* INTRO */
+.intro > .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* / INTRO */
