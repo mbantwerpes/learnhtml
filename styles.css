@@ -55,8 +55,8 @@ p {
 .intro > .container {
   height: 100vh;
   display: flex;
-  flex-direction: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* / INTRO */
