@@ -17,10 +17,14 @@ video {
 :root {
   --ff-heading: "Lobster", cursive;
   --ff-text: "Open Sans", sans-serif;
+  --clr-main-background: #dbdbdb;
+  --clr-card-background: #ffffff;
+  --clr-accent: #009999;
 }
 
 body {
   font-family: var(--ff-text);
+  background-color: var(--clr-main-background);
 }
 
 h1,
