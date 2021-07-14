@@ -17,9 +17,9 @@ video {
 :root {
   --ff-heading: "Lobster", cursive;
   --ff-text: "Open Sans", sans-serif;
-  --clr-main-background: #f0eaea;
+  --clr-main-background: #f8f9fa;
   --clr-card-background: #ffffff;
-  --clr-accent: #009999;
+  --clr-accent: #cc3333;
 }
 
 body {
@@ -51,12 +51,31 @@ p {
   margin: 0 auto;
 }
 
+.text-accent-clr {
+  color: var(--clr-accent);
+}
+
 /* INTRO */
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://burger-liebe.com/wp-content/uploads/2019/12/Header-Burger-16.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: multiply;
+}
+
 .intro > .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.intro-sub-heading {
+  font-family: var(--ff-text);
 }
 /* / INTRO */
