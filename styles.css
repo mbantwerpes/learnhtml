@@ -141,3 +141,10 @@ input:not([type="submit"]) {
   justify-self: center;
 }
 /* / CONTACT */
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+/* / FOOTER */
