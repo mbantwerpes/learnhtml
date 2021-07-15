@@ -61,6 +61,14 @@ input:not([type="submit"]) {
   color: var(--clr-accent);
 }
 
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 3em;
+}
+
 /* INTRO */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -118,7 +126,6 @@ input:not([type="submit"]) {
 
 .submit-btn {
   grid-area: submit-btn;
-  max-width: 8em;
   justify-self: center;
 }
 /* / CONTACT */
