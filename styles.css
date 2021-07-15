@@ -46,6 +46,12 @@ p {
   line-height: 1.8;
 }
 
+input:not([type="submit"]) {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
